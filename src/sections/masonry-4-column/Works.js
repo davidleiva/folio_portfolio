@@ -38,7 +38,7 @@ const Works = () => {
         <Container>
           <Box mb="2.5rem" ml="-1.75rem">
             <ListNav className="nav">
-              <li className="nav-item">
+              asdasd<li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
                     activeLink === "*" ? "active" : null
@@ -47,8 +47,8 @@ const Works = () => {
                     e.preventDefault();
                     filterBy("*");
                   }}
-                >
-                  All works
+                >asdsad
+                  all works HERE
                 </a>
               </li>
               <li className="nav-item">

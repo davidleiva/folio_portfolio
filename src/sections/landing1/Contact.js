@@ -20,8 +20,8 @@ const Hero = () => {
               </div>
               <div className="text-center">
                 <ButtonIcon
-                  variant="secondary"
-                  color="primary"
+                  variant="primary"
+                  color="white"
                   onClick={(e) => {
                     e.preventDefault();
                     gContext.toggleContact();

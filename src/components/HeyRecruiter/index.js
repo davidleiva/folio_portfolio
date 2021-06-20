@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "gatsby";
 
 
 const HeyRecruiter = () => {
@@ -38,6 +39,7 @@ const HeyRecruiter = () => {
                         <a
                             href="https://www.linkedin.com/in/davidleiva-fe/"
                             target="_blank"
+                            rel="noreferrer"
                             className="btn btn-sm d-flex align-items-center mx-1 mb-2 rounded-pill Mya text-white"
                             style={{background: '#0e76a8', lineHeight: '16px'}}
                         >
@@ -46,13 +48,17 @@ const HeyRecruiter = () => {
                     <li style={{
                         display: 'inline-block'
                     }}>
-                        <button
-                            className="btn btn-sm d-flex align-items-center btn-outline-primary mx-1 mb-2 rounded-pill MyButton"
-                            style={{lineHeight: '16px'}}
-                        >
-                            <i className="icon icon-ic_file_download_48px mr-1"></i>
-                            <span>Download CV</span>
-                        </button></li>
+                        <Link to="https://drive.google.com/file/d/1J6KjhY-_8f2ThcR7bDjV_e52QU1VfJMM/view?usp=sharing" target="_blank" download>
+                            <button
+                                type="submit"
+                                className="btn btn-sm d-flex align-items-center btn-outline-primary mx-1 mb-2 rounded-pill MyButton"
+                                style={{lineHeight: '16px'}}
+                            >
+                                <i className="icon icon-ic_file_download_48px mr-1"></i>
+                                <span>Download CV</span>
+                            </button>
+                        </Link>
+                    </li>
                     <br />
                     <li style={{
                         display: 'inline-block'

@@ -47,8 +47,8 @@ const Works = () => {
                     e.preventDefault();
                     filterBy("*");
                   }}
-                >
-                  All works
+                >asdsad
+                  all works HERE
                 </a>
               </li>
               <li className="nav-item">

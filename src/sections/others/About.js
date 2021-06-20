@@ -24,7 +24,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
     <>
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
-          <Row className="align-items-center">
+          <Row className="align-items-start">
             <Col lg="6">
               <div>
                 <img src={imgPhoto} alt="folio" className="img-fluid" />
@@ -37,21 +37,80 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                 </Title>
                 <Text
                   color="light"
-                  className="mt-3 mt-lg-5"
+                  className="mt-2 mt-lg-2"
                   css={`
                     line-height: 1.5;
+                    font-size: 16px;
                   `}
                 >
-                  I was trained as a multimedia designer. For personal motivation and in a natural way I became a developer.
+                  15 years ago my goal was to design the best digital products
+                  possible.
                 </Text>
-                <Text color="light" className="mt-4">
-                Now I want to keep providing vision and solutions to the strategy and solving design problems faced by digital products.
+                <Text
+                  color="light"
+                  className="mt-2 mt-lg-2"
+                  css={`
+                    line-height: 1.5;
+                    font-size: 16px;
+                  `}
+                >
+                  Products that would improve the world we live in.
                 </Text>
-                <Text color="light" className="mt-4">
-                Besides, I am a good guy. My dog would tell you so.
+                <Text
+                  color="light"
+                  className="mt-2 mt-lg-2"
+                  css={`
+                    line-height: 1.5;
+                    font-size: 16px;
+                  `}
+                >
+                  So I decided to be trained as a multimedia designer, focused
+                  on web and apps.
+                </Text>
+                <Text
+                  color="light"
+                  className="mt-2 mt-lg-2"
+                  css={`
+                    line-height: 1.5;
+                    font-size: 16px;
+                  `}
+                >
+                  For personal motivations and in a natural way I also became a
+                  developer.
+                </Text>
+                <Text
+                  color="light"
+                  className="mt-4"
+                  css={`
+                    line-height: 1.5;
+                    font-size: 16px;
+                  `}
+                >
+                  Now I want to set my focus exclusively on providing my
+                  experience and vision to create proper stategies and create
+                  sollutions.
+                </Text>
+                <Text
+                  color="light"
+                  className="mt-4"
+                  css={`
+                    line-height: 1.5;
+                    font-size: 16px;
+                  `}
+                >
+                  Besides all that, I am a good guy. My dog would tell you so.
                 </Text>
                 <div className="mt-4">
-                  <Text color="light">Email me at</Text>
+                  <Text
+                    color="light"
+                    className="mt-2 mt-lg-2"
+                    css={`
+                      line-height: 1.5;
+                      font-size: 16px;
+                    `}
+                  >
+                    Email me at
+                  </Text>
 
                   <Text variant="p">
                     <a

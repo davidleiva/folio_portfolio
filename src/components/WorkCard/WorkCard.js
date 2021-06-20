@@ -34,16 +34,28 @@ const TextBox = styled(Box)`
 
 const WorkCard = ({ workItem, link, ...rest }) => (
   <WorkBox className="position-relative" {...rest}>
-    <Link to={link} className="d-block">
+    <Link className="d-block"> {/* to={link}  */}
       <img src={workItem.thumbnail} alt="" className="w-100" />
     </Link>
 
     <TextBox>
       <Text variant="tag" mb={2}>
-        {workItem.categories[0]}
-      </Text>
+        {/* {workItem.categories[0]} */}
+        {workItem && workItem.categories && workItem.categories.map(
+          (cat,index) => {
+            return (
+              <>
+              <span className={"mr-1"}>{cat}</span>
+              { workItem.categories &&
+                (workItem.categories.length > 1 &&
+                  index + 1 !== workItem.categories.length) && <span className={"mr-1"}>·</span> }
+              </>
+            );
+          }
+        )}
+        </Text>
       <Title variant="card">
-        <Link to={link}>{workItem.brand} </Link>
+        <Link >{workItem.brand} </Link> {/* to={link}*/}
       </Title>
     </TextBox>
   </WorkBox>

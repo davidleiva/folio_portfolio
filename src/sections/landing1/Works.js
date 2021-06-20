@@ -4,22 +4,23 @@ import Masonry from "react-masonry-component";
 
 import { Section, Box, ListNav } from "../../components/Core";
 import WorkCard from "../../components/WorkCard";
-import { designWorks1 } from "../../data";
+// import { designWorks1 } from "../../data";
+import { myWorks } from "../../data/myWorks";
 
 const Works = () => {
   const [items, setItems] = useState([]);
   const [activeLink, setActiveLink] = useState("*");
 
   useEffect(() => {
-    setItems(designWorks1);
+    setItems(myWorks);
   }, []);
 
   const filterBy = (cat) => {
     if (cat === "*") {
       setActiveLink("*");
-      setItems(designWorks1);
+      setItems(myWorks);
     } else {
-      const filteredItems = designWorks1.filter((item) => {
+      const filteredItems = myWorks.filter((item) => {
         return item.categories.indexOf(cat) !== -1;
       });
       setActiveLink(cat);
@@ -37,8 +38,9 @@ const Works = () => {
       <Section className="position-relative">
         <Container>
           <Box mb="2.5rem" ml="-1.75rem">
-            <ListNav className="nav">
-              <li className="nav-item">
+            <h6 className="text-center">MY LATEST EXPERIENCES</h6>
+            <ListNav className="nav justify-content-center">
+             <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
                     activeLink === "*" ? "active" : null
@@ -54,24 +56,24 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "branding" ? "active" : null
+                    activeLink === "product" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("branding");
+                    filterBy("product");
                   }}
                 >
-                  Branding
+                  Product Design
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "ux-design" ? "active" : null
+                    activeLink === "ux" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("ux-design");
+                    filterBy("ux");
                   }}
                 >
                   UX Design
@@ -80,14 +82,40 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "photography" ? "active" : null
+                    activeLink === "ui" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("photography");
+                    filterBy("ui");
                   }}
                 >
-                  Photography
+                  UI Design
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className={`nav-link font-weight-bold text-uppercase ${
+                    activeLink === "frontend" ? "active" : null
+                  }`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    filterBy("frontend");
+                  }}
+                >
+                  Front-End
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className={`nav-link font-weight-bold text-uppercase ${
+                    activeLink === "branding" ? "active" : null
+                  }`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    filterBy("branding");
+                  }}
+                >
+                  Branding
                 </a>
               </li>
             </ListNav>
@@ -100,7 +128,7 @@ const Works = () => {
             className={"masonry-grid row"} // default ''
           >
             {items.map((item, index) => (
-              <Col lg="3" md="4" sm="6" key={index} className="filtr-item">
+              <Col lg="4" md="6" sm="6" key={index} className="filtr-item">
                 <WorkCard workItem={item} mb="30px" link={item.link}/>
               </Col>
             ))}
