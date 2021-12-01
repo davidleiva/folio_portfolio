@@ -448,7 +448,7 @@ const Header = ({ isDark }) => {
                     <a
                       target="_blank"
                       className="nav-link"
-                      href="/CV-2021.pdf"
+                      href="/Folio_files/CV_DavidLeiva.pdf."
                     >
                       Curriculum Vitae
                     </a>
