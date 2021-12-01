@@ -113,7 +113,7 @@ const Layout = ({ children, pageContext }) => {
         {/* <ThemeSwitch /> */}
         <GlobalStyle />
         <Helmet>
-          <title>Folio</title>
+          <title>I am David Leiva</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
         </Helmet>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
@@ -140,7 +140,7 @@ const Layout = ({ children, pageContext }) => {
         {/* <ThemeSwitch /> */}
         <GlobalStyle />
         <Helmet>
-          <title>Folio</title>
+          <title>I am David Leiva</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
         </Helmet>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
