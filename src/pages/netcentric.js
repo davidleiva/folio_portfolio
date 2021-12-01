@@ -130,16 +130,19 @@ const WorkSingle = () => {
                   Oct 15, 2019
                 </Title>
               </Col> */}
-              <Col lg="12" className="d-flex flex-column align-items-center">
+              <Col lg="12" className="d-flex flex-column align-items-center justify-content-center">
                 <Text variant="h3" className="my-3">
                   Want to see the the project?
                 </Text>
-                <div>
+                <div className="text-center">
                   <a href="https://www.netcentric.biz/" target="_blank">
                   <Button
                     arrowRight
                     // onClick={() => window.open("", "_blank")}
                   >Go to website</Button>
+                  <Text variant="h3" className="my-3">
+                    Reload browser when you see the 403 error. It's due a security measure from netcentric.
+                  </Text>
                   </a>
                 </div>
               </Col>
