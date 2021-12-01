@@ -122,6 +122,7 @@ const IndexPage = () => {
                 <li className="m-3">Design Thinking</li>
                 <li className="m-3">CRO</li>
                 <li className="m-3">Design systems</li>
+                <li className="m-3">Research</li>
                 <li className="m-3">User tests</li>
                 <li className="m-3">UI Design</li>
                 <li className="m-3">SCRUM</li>
