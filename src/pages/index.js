@@ -118,7 +118,7 @@ const IndexPage = () => {
               Skills I have
             </Title>
             <Row>
-              <ul className="d-flex justify-content-center">
+              <ul className="d-flex justify-content-center flex-wrap" style={{ listStyle: 'initial', listStylePosition: 'inside'}}>
                 <li className="m-3">Design Thinking</li>
                 <li className="m-3">CRO</li>
                 <li className="m-3">Design systems</li>
