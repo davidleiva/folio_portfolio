@@ -53,6 +53,9 @@ const WorkSingle = () => {
                         <Text variant="p" className="mb-4">
                             I really did plenty of stuff on this company: new branding, styles guide, ux/ui design and frontend implementation. Unluckily, we couldn't compite with other players like Housell ... 
                         </Text>
+                        <Text variant="p" className="mb-4">
+                            <b>Please bear in mind that Cliventa closed.</b>
+                        </Text>
                     </Box>
                 </Col>
             </Row>
@@ -115,10 +118,10 @@ const WorkSingle = () => {
             </Container>
         </Section> */}
 
-        {/* <div className="mt-lg-3">
+        <div className="mt-lg-3">
           <Container>
             <Row>
-              <Col lg="4" className="mb-4 mb-lg-0">
+              {/* <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Client</Text>
                 <Title variant="cardBig" className="mt-3">
                   DataTryper
@@ -129,13 +132,23 @@ const WorkSingle = () => {
                 <Title variant="cardBig" className="mt-3">
                   Oct 15, 2019
                 </Title>
-              </Col>
-              <Col lg="4" className="d-flex justify-content-lg-end">
-                <Button arrowRight>Live work</Button>
+              </Col> */}
+              <Col lg="12" className="d-flex flex-column align-items-center">
+                <Text variant="h3" className="my-3">
+                  Want to see the the project?
+                </Text>
+                <div>
+                  <a href="https://www.linkedin.com/company/cliventa/about/" target="_blank">
+                  <Button
+                    arrowRight
+                    // onClick={() => window.open("", "_blank")}
+                  >Go to website</Button>
+                  </a>
+                </div>
               </Col>
             </Row>
           </Container>
-        </div> */}
+        </div>
 
         {/* <Section className="mt-lg-5 pb-0">
           <Container>

@@ -62,8 +62,6 @@ const Menu = styled.ul`
         padding-left: 18px !important;
         padding-right: 18px !important;
 
-        text-transform: lowercase;
-
         &.dropdown-toggle:after {
           margin-left: 10px;
           position: relative;
@@ -448,7 +446,7 @@ const Header = ({ isDark }) => {
                     <a
                       target="_blank"
                       className="nav-link"
-                      href="/Folio_files/CV_DavidLeiva.pdf."
+                      href="https://drive.google.com/file/d/17s3TL3ckkb282pzMy3_PtxQXyPsQJCVA/view?usp=sharing"
                     >
                       Curriculum Vitae
                     </a>
@@ -464,7 +462,7 @@ const Header = ({ isDark }) => {
                         gContext.toggleAbout();
                       }}
                     >
-                      about me
+                      About me
                     </a>
                   </li>
 
@@ -478,7 +476,7 @@ const Header = ({ isDark }) => {
                         gContext.toggleContact();
                       }}
                     >
-                      contact
+                      Contact
                     </a>
                   </li>
                   {/* <li className="nav-item">

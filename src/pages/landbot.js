@@ -88,34 +88,44 @@ const WorkSingle = () => {
                         <li className="mb-2">Figma</li>
                         <li className="mb-2">Miro</li>
                         <li className="mb-2">Notion</li>
-                        <li className="mb-2">Ionic / Capacitator / React / </li>
-                        <li className="mb-2">Contenful (no code backend)</li>
+                        <li className="mb-2">React</li>
                     </List>
                 </Col>
             </Row>
           </Container>
         </Section>
 
-        {/* <Section>
-            <Container>
-                <Row>
-                    <Col>
-                        <Box>
-                            <Title variant="cardBig" className="mb-2">Project Summary</Title>
-                            <Text variant="p" className="mb-4">
-                                While I was attending a bootcamp to acquire more skills in the field of product design, I was already collaborating with a neighborhood association to improve the management of the town hall and the institutions in my town.
-                            </Text>
-                            <Text variant="p" className="mb-4">
-                                Therefore, I took advantage of these circumstances to create the final deliverable project: I created a brand for the association, and currently I'm designing the communication strategy and creating tools to work internally and externally.
-                            </Text>
-                            <Text variant="p" className="mb-4">
-                                The association is trying to expose the bad procesure of our town gobernment, trying to force them to work for the neighbours and not on their own interest. We are also trying to collect neighbours feedback and complaints, and we are exposing them to our major and his team.
-                            </Text>
-                        </Box>
-                    </Col>
-                </Row>
-            </Container>
-        </Section> */}
+        <div className="mt-lg-3">
+          <Container>
+            <Row>
+              {/* <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Client</Text>
+                <Title variant="cardBig" className="mt-3">
+                  DataTryper
+                </Title>
+              </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Time</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Oct 15, 2019
+                </Title>
+              </Col> */}
+              <Col lg="12" className="d-flex flex-column align-items-center">
+                <Text variant="h3" className="my-3">
+                  Want to see the the project?
+                </Text>
+                <div>
+                  <a href="https://landbot.io/" target="_blank">
+                  <Button
+                    arrowRight
+                    // onClick={() => window.open("", "_blank")}
+                  >Go to website</Button>
+                  </a>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
 
         {/* <div className="mt-lg-3">
           <Container>

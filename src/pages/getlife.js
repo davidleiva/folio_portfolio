@@ -47,9 +47,10 @@ const WorkSingle = () => {
                 <Col>
                     <Box>
                         <Title variant="cardBig" className="mb-3">Project Summary</Title>
-                        <Text variant="p" className="mb-4">I decided to join Getlife as my first product lead experience. It's a small company but it's growing super fast, and adaptabilty to this new scenario it's becoming a key skill for our success.</Text>
-                        <Text variant="p" className="mb-4">When I entered the company I tried to provide methodology and good practices to the product, market and it departments, since we were lacking of work routines that could improve our performance.</Text>
-                        <Text variant="p" className="mb-4">The insurtech market is an area that has a huge potential, but customers still need confidence in these new products, so this is the perfect opportunity to develop what I learned about CRO.
+                        <Text variant="p" className="mb-4">I decided to join Getlife as my first <b>product lead</b> experience. It's a small company but it's growing super fast, and adaptabilty to this new scenario it's becoming a key skill for our success.</Text>
+                        <Text variant="p" className="mb-4"><b>Currently I'm working on creating a new design system to change the whole vibe of the site (unluckily for me it is not available yet).</b></Text>
+                        <Text variant="p" className="mb-4">When I entered the company I tried to <b>provide methodology and good practices</b> to the product, market and it departments, since we were lacking of work routines that could improve our performance.</Text>
+                        <Text variant="p" className="mb-4">The insurtech market is an area that has a huge potential, but customers still need confidence in these new products, so this is the <b>perfect opportunity to develop what I learned about CRO</b>.
                         </Text>
                     </Box>
                 </Col>
@@ -118,10 +119,10 @@ const WorkSingle = () => {
             </Container>
         </Section> */}
 
-        {/* <div className="mt-lg-3">
+        <div className="mt-lg-3">
           <Container>
             <Row>
-              <Col lg="4" className="mb-4 mb-lg-0">
+              {/* <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Client</Text>
                 <Title variant="cardBig" className="mt-3">
                   DataTryper
@@ -132,13 +133,23 @@ const WorkSingle = () => {
                 <Title variant="cardBig" className="mt-3">
                   Oct 15, 2019
                 </Title>
-              </Col>
-              <Col lg="4" className="d-flex justify-content-lg-end">
-                <Button arrowRight>Live work</Button>
+              </Col> */}
+              <Col lg="12" className="d-flex flex-column align-items-center">
+                <Text variant="h3" className="my-3">
+                  Want to see the project?
+                </Text>
+                <div>
+                  <a href="https://getlife.es/" target="_blank">
+                  <Button
+                    arrowRight
+                    // onClick={() => window.open("", "_blank")}
+                  >Go to website</Button>
+                  </a>
+                </div>
               </Col>
             </Row>
           </Container>
-        </div> */}
+        </div> {/* */}
 
         {/* <Section className="mt-lg-5 pb-0">
           <Container>

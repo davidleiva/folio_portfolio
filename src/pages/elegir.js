@@ -51,10 +51,10 @@ const WorkSingle = () => {
                             While I was attending a bootcamp to acquire more skills in the field of product design, I was already collaborating with a neighborhood association to improve the management of the town hall and the institutions in my town.
                         </Text>
                         <Text variant="p" className="mb-4">
-                            Therefore, I took advantage of these circumstances to create the final deliverable project: I created a brand for the association, and currently I'm designing the communication strategy and creating tools to work internally and externally.
+                            Therefore, I took advantage of these circumstances to create the final deliverable project: The brand of the project become the one for the association, changing a little bit to fit their needs ("Escollir" is Catalan instead of Spanish "Elegir"), and currently I'm designing the site, app, the communication strategy and creating tools to work internally and externally.
                         </Text>
                         <Text variant="p" className="mb-4">
-                            The association is trying to expose the bad procesure of our town gobernment, trying to force them to work for the neighbours and not on their own interest. We are also trying to collect neighbours feedback and complaints, and we are exposing them to our major and his team.
+                            <b>Please bear in mind the project is still under development.</b>
                         </Text>
                     </Box>
                 </Col>
@@ -127,10 +127,10 @@ const WorkSingle = () => {
             </Container>
         </Section> */}
 
-        {/* <div className="mt-lg-3">
+        <div className="mt-lg-3">
           <Container>
             <Row>
-              <Col lg="4" className="mb-4 mb-lg-0">
+              {/* <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Client</Text>
                 <Title variant="cardBig" className="mt-3">
                   DataTryper
@@ -141,13 +141,23 @@ const WorkSingle = () => {
                 <Title variant="cardBig" className="mt-3">
                   Oct 15, 2019
                 </Title>
-              </Col>
-              <Col lg="4" className="d-flex justify-content-lg-end">
-                <Button arrowRight>Live work</Button>
+              </Col> */}
+              <Col lg="12" className="d-flex flex-column align-items-center">
+                <Text variant="h3" className="my-3">
+                  Want to see the the project's summary?
+                </Text>
+                <div>
+                  <a href="https://drive.google.com/file/d/1fOETQbiV7VYdVs7i8c6K0eVRKHt5YADF/view?usp=sharing" target="_blank">
+                  <Button
+                    arrowRight
+                    // onClick={() => window.open("", "_blank")}
+                  >Get the project's summary</Button>
+                  </a>
+                </div>
               </Col>
             </Row>
           </Container>
-        </div> */}
+        </div>
 
         {/* <Section className="mt-lg-5 pb-0">
           <Container>
