@@ -16,10 +16,11 @@ const CTA = () => {
             <Col lg="10" xl="7">
               <Availability />
               <div className="text-center my-5">
-                <Title>Do you have illustration project? Let's talk.</Title>
+                <Title>Are you looking for a profile like mine?</Title>
               </div>
               <div className="text-center">
                 <ButtonIcon
+                  variant="primary"
                   onClick={(e) => {
                     e.preventDefault();
                     gContext.toggleContact();

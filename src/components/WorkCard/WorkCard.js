@@ -34,7 +34,7 @@ const TextBox = styled(Box)`
 
 const WorkCard = ({ workItem, link, ...rest }) => (
   <WorkBox className="position-relative" {...rest}>
-    <Link className="d-block"> {/* to={link}  */}
+    <Link className="d-block" to={link}> {/* to={link}  */}
       <img src={workItem.thumbnail} alt="" className="w-100" />
     </Link>
 
@@ -55,7 +55,7 @@ const WorkCard = ({ workItem, link, ...rest }) => (
         )}
         </Text>
       <Title variant="card">
-        <Link >{workItem.brand} </Link> {/* to={link}*/}
+        <Link to={link}>{workItem.brand}</Link> {/* to={link}*/}
       </Title>
     </TextBox>
   </WorkBox>

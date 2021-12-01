@@ -28,7 +28,7 @@ const PageWrapper = ({ children, darkTheme = false, themeConfig = null }) => {
   return (
     <>
       {children}
-      <HeyRecruiter />
+      {/* <HeyRecruiter /> */}
     </>
   );
 };

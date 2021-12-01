@@ -4,6 +4,7 @@ import imgT3 from "../assets/image/png/landbot.png";
 import imgT4 from "../assets/image/png/netcentric.png";
 import imgT5 from "../assets/image/png/bbva.png";
 import imgT6 from "../assets/image/png/cliventa.png";
+import imgT7 from "../assets/image/png/getlife.png"
 
 export const myWorks = [
   {
@@ -12,23 +13,31 @@ export const myWorks = [
     title: 'Social platform for local socio-political change.',
     categories: ['product','ux','ui','branding','frontend'],
     thumbnail: imgT1,
-  link : "/portfolio-details"
-},
+    link : "/elegir"
+  },
+  {
+    brand: 'Getlife',
+    slug: 'getlife',
+    title: 'An online service to get the best Life Insurance.',
+    categories: ['product','ux','ui','frontend'],
+    thumbnail: imgT7,
+    link : "/getlife"
+  },
   {
     brand: 'Timedi',
     slug: 'timedi',
     title: 'Product design & software development for pharmaceutical solutions.',
     categories: ['product','ux','ui','frontend'],
     thumbnail: imgT2,
-  link : "/portfolio-details"
+    link : "/timedi"
 },
   {
     brand: 'Landbot',
     slug: 'landbot',
     title: 'Conversational chatbot codeless generator.',
-    categories: ['ux','ui','frontend'],
+    categories: ['product','ux','ui','frontend'],
     thumbnail: imgT3,
-  link : "/portfolio-details"
+    link : "/landbot"
 },
   {
     brand: 'Netcentric',
@@ -36,7 +45,7 @@ export const myWorks = [
     title: 'Internal job on the company sites & apps.',
     categories: ['ui','ux','frontend'],
     thumbnail: imgT4,
-  link : "/portfolio-details"
+    link : "/netcentric"
 },
   {
     brand: 'BBVA',
@@ -44,7 +53,7 @@ export const myWorks = [
     title: 'Design, development and implementation of BBVA corporate web pages..',
     categories: ['frontend', 'ux',],
     thumbnail: imgT5,
-  link : "/portfolio-details"
+    link : "/bbva"
 },
 {
   brand: 'Cliventa',
@@ -52,7 +61,7 @@ export const myWorks = [
   title: 'Adaptable but Identifiable Product for Kandinsky.',
   categories: ['product','ux','ui','branding'],
   thumbnail: imgT6,
-link : "/portfolio-details"
+  link : "/cliventa"
 },
 //   {
 //     brand: 'App Ice Cream',
@@ -62,20 +71,20 @@ link : "/portfolio-details"
 //     thumbnail: imgT6,
 //   link : "/portfolio-details"
 // },
-//   {
-//     brand: 'Camera',
-//     slug: 'Camera',
-//     title: 'Adaptable but Identifiable Product for Kandinsky.',
-//     categories: ['photography', 'ux-design'],
-//     thumbnail: imgT7,
+// {
+//   brand: 'Camera',
+//   slug: 'Camera',
+//   title: 'Adaptable but Identifiable Product for Kandinsky.',
+//   categories: ['photography', 'ux-design'],
+//   thumbnail: imgT7,
 //   link : "/portfolio-details"
 // },
-//   {
-//     brand: 'Smart Watch',
-//     slug: 'smart-watch',
-//     title: 'Adaptable but Identifiable Product for Kandinsky.',
-//     categories: ['branding'],
-//     thumbnail: imgT8,
+// {
+//   brand: 'Smart Watch',
+//   slug: 'smart-watch',
+//   title: 'Adaptable but Identifiable Product for Kandinsky.',
+//   categories: ['branding'],
+//   thumbnail: imgT8,
 //   link : "/portfolio-details"
-// },
+// }
 ];

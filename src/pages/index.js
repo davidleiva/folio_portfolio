@@ -14,7 +14,6 @@ const IndexPage = () => {
         <Element name="works">
           <Works />
         </Element>
-
         <Contact />
       </PageWrapper>
     </>
