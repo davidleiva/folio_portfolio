@@ -6,13 +6,13 @@ import { Section, Button, Title, Text, Box, List } from "../components/Core";
 import PageWrapper from "../components/PageWrapper";
 import CTA from "../sections/common/CTA";
 import imgWorkCover from "../assets/image/png/landbot.png";
-import imgS1 from "../assets/image/jpg/details/details-12.jpg";
-import imgS2 from "../assets/image/jpg/details/details-11.jpg";
-import imgS3 from "../assets/image/jpg/details/details-10.jpg";
-import imgS4 from "../assets/image/jpg/details/details-9.jpg";
-import imgS5 from "../assets/image/jpg/details/details-14.jpg";
-import imgS6 from "../assets/image/jpg/details/details-13.jpg";
-import { device } from "../utils";
+import imgS1 from "../assets/image/png/landbot-1.png";
+import imgS2 from "../assets/image/png/landbot-2.jpeg";
+import imgS3 from "../assets/image/png/landbot-3.png";
+import imgS4 from "../assets/image/png/landbot-4.png";
+// import imgS5 from "../assets/image/jpg/details/details-14.jpg";
+// import imgS6 from "../assets/image/jpg/details/details-13.jpg";
+// import { device } from "../utils";
 
 const WorkSingle = () => {
   return (
@@ -94,6 +94,24 @@ const WorkSingle = () => {
             </Row>
           </Container>
         </Section>
+
+        <Container>
+          <Title variant="cardBig" className="mt-4 mb-5">Screenshots</Title>
+          <Row>
+            <Col lg="6">
+              <img src={imgS3} alt="landbot" className="mb-3 img-fluid w-100 shadow" />
+            </Col>
+            <Col lg="6">
+              <img src={imgS4} alt="landbot" className="mb-3 img-fluid w-100 shadow" />
+            </Col>
+            <Col lg="6">
+              <img src={imgS1} alt="landbot" className="mb-3 img-fluid w-100 shadow" />
+            </Col>
+            <Col lg="6">
+              <img src={imgS2} alt="landbot" className="mb-3 img-fluid w-100 shadow" />
+            </Col>
+          </Row>
+        </Container>
 
         <div className="mt-lg-3">
           <Container>

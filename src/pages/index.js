@@ -111,6 +111,32 @@ const IndexPage = () => {
             </Row>
           </Container>
         </Section>
+
+        <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-3">
+              Skills I have
+            </Title>
+            <Row>
+              <ul className="d-flex justify-content-center">
+                <li className="m-3">Design Thinking</li>
+                <li className="m-3">CRO</li>
+                <li className="m-3">Design systems</li>
+                <li className="m-3">User tests</li>
+                <li className="m-3">UI Design</li>
+                <li className="m-3">SCRUM</li>
+                <li className="m-3">Service design</li>
+                <li className="m-3">Design Sprints</li>
+                <li className="m-3">Lean Startup</li>
+                <li className="m-3">Javascript / React</li>
+                <li className="m-3">CSS 3</li>
+                <li className="m-3">SASS / LESS</li>
+                <li className="m-3">HTML5</li>
+                <li className="m-3">Style guides</li>
+              </ul>
+            </Row>
+          </Container>
+        </Section>
         
         <Contact />
       </PageWrapper>

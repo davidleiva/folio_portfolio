@@ -120,6 +120,25 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                       <Span color="light">davidleivaherrero@gmail.com</Span>
                     </a>
                   </Text>
+                  <Text
+                    color="light"
+                    className="mt-2 mt-lg-2"
+                    css={`
+                      line-height: 1.5;
+                      font-size: 16px;
+                    `}
+                  >
+                    Call me at  
+                  </Text>
+
+                  <Text variant="p">
+                    <a
+                      href="tel:+34653071080"
+                      className="font-weight-bold"
+                    >
+                      <Span color="light">+34 653071080</Span>
+                    </a>
+                  </Text>
                 </div>
                 {/* <div className="mt-5">
                   <img src={imgSignLight} alt="sign" className="img-fluid" />
@@ -131,14 +150,14 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                   Founder of Folio Digital
                 </Text> */}
                 <div className="mt-5 d-flex">
-                  <LinkSocial
+                  {/* <LinkSocial
                     href="https://www.linkedin.com/in/davidleiva-fe/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-3"
                   >
                     Linkedin
-                  </LinkSocial>
+                  </LinkSocial> */}
                   {/* <LinkSocial
                     href="https://www.twitter.com"
                     target="_blank"

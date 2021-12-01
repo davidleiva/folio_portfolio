@@ -48,13 +48,13 @@ const Hero = () => {
                 </Box>
               </Box>
             </Col>
-            <Col lg="3" md="4" sm="4" xs="6">
-              <div className="text-center text-lg-right position-relative">
+            <Col lg="5" md="4" sm="4" xs="6">
+              <div className="text-center text-lg-right position-relative d-flex justify-content-center">
                 <div className="img-main" style={{
                   borderRadius: '50%',
                   overflow: 'hidden'
                 }}>
-                  <ImgRight src={imgL} alt="" />
+                  <ImgRight src={imgL} alt="David Leiva" style={{ maxWidth: '228px'}} />
                 </div>
               </div>
             </Col>

@@ -35,7 +35,7 @@ const Works = () => {
   return (
     <>
       {/* <!-- Works Area --> */}
-      <Section className="position-relative">
+      <Section className="position-relative" id="works">
         <Container>
           <Box mb="2.5rem" ml="-1.75rem">
             <h6 className="text-center">MY LATEST EXPERIENCES</h6>

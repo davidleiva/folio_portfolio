@@ -97,6 +97,24 @@ const WorkSingle = () => {
           </Container>
         </Section>
 
+        {/* <Container>
+          <Title variant="cardBig" className="mt-4 mb-5">Screenshots</Title>
+          <Row>
+            <Col lg="6">
+              <img src={imgS1} alt="" className="mb-3 img-fluid w-100" />
+            </Col>
+            <Col lg="6">
+              <img src={imgS2} alt="" className="mb-3 img-fluid w-100" />
+            </Col>
+            <Col lg="6">
+              <img src={imgS3} alt="" className="mb-3 img-fluid w-100" />
+            </Col>
+            <Col lg="6">
+              <img src={imgS4} alt="" className="mb-3 img-fluid w-100" />
+            </Col>
+          </Row>
+        </Container> */}
+
         {/* <Section>
             <Container>
                 <Row>

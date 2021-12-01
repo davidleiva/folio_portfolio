@@ -28,7 +28,7 @@ const Contact = ({ hero = true, bg = "dark", ...rest }) => {
                     <Text color="light">Call me at</Text>
 
                     <a className="text-primary" href="tel:+34653071080" className="font-weight-bold">
-                      <span className="text-white">653071080</span>
+                      <span className="text-white">+34 653071080</span>
                     </a>
                   </div>
                   {/* <div className="mt-5">

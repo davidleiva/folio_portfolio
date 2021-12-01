@@ -431,6 +431,15 @@ const Header = ({ isDark }) => {
                     }
                   )}
 
+                  <li className="nav-item">
+                    <a
+                      className="nav-link"
+                      href="/#works"
+                    >
+                      Works
+                    </a>
+                  </li>
+
                   
                   <li className="nav-item">
                     <a
