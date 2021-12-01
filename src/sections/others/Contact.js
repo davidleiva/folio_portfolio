@@ -23,24 +23,41 @@ const Contact = ({ hero = true, bg = "dark", ...rest }) => {
         <Container>
           <Row className="justify-content-center">
             <Col lg="6">
-              <Box className="pr-lg-5">
+              <ContactCard className="p-5 ml-lg-5">
+                  <div>
+                    <Text color="light">Call me at</Text>
+
+                    <a className="text-primary" href="tel:+34653071080" className="font-weight-bold">
+                      <span className="text-white">653071080</span>
+                    </a>
+                  </div>
+                  {/* <div className="mt-5">
+                    <Text color="light">Call me at</Text>
+
+                    <div>
+                      <a href="tel:+1-402-4983" className="font-weight-bold">
+                        <Span color="primary">+1-402-4983</Span>
+                      </a>
+                    </div>
+                  </div> */}
+                </ContactCard>
+              {/* <Box className="pr-lg-5">
                 <Title color="light" variant="secSm" mb="2rem">
                   Contact now
                 </Title>
                 <Text color="light" mb="2.75rem">
-                  Have a project or question? Send me a message. I will reply
-                  within 48 hours.
+                  Call me: <a className="text-white" href="tel:+34653071080">653071080</a>
                 </Text>
                 <ContactForm theme="dark" />
-              </Box>
+              </Box> */}
             </Col>
-            <Col lg="5">
+            <Col lg="6">
               <ContactCard className="p-5 ml-lg-5">
                 <div>
                   <Text color="light">Email me at</Text>
 
-                  <a href="mailto:davidleivaherrero@gmail.com" className="font-weight-bold">
-                    <Span color="primary">davidleivaherrero@gmail.com</Span>
+                  <a className="text-primary"  href="mailto:davidleivaherrero@gmail.com" className="font-weight-bold">
+                    <span className="text-white">davidleivaherrero@gmail.com</span>
                   </a>
                 </div>
                 {/* <div className="mt-5">

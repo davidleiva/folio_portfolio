@@ -6,9 +6,10 @@ import { Link } from "react-scroll";
 import { Title, Button, Section, Box, Text } from "../../components/Core";
 
 import { device } from "../../utils";
-import imgL from "../../assets/image/jpg/yo.jpg";
+import imgL from "../../assets/image/jpg/yo-perfil.jpeg";
 
 const ImgRight = styled.img`
+  width: 100%;
   max-width: 100%;
 `;
 
@@ -19,7 +20,7 @@ const Hero = () => {
       <Section hero className="position-relative">
         <Container>
           <Row className="align-items-center">
-            <Col lg="7" className="mb-5 mb-lg-0">
+            <Col lg="7" md="6" sm="8" xs="12" className="mb-5 mb-lg-0">
               <Box>
                 <Text
                   variant="tag"
@@ -28,7 +29,7 @@ const Hero = () => {
                   color="heading"
                   mb="40px"
                 >
-                  I'm a product designer that knows UX &amp; FrontEnd.
+                  I'm a product designer · UX/UI Engineer · Frontend dev.
                 </Text>
                 <Title variant="hero">
                   I design digital products.
@@ -47,7 +48,7 @@ const Hero = () => {
                 </Box>
               </Box>
             </Col>
-            <Col lg="5" md="8" sm="9">
+            <Col lg="3" md="4" sm="4" xs="6">
               <div className="text-center text-lg-right position-relative">
                 <div className="img-main" style={{
                   borderRadius: '50%',

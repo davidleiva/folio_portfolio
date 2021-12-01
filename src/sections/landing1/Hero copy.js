@@ -50,7 +50,7 @@ const Hero = () => {
             <Col lg="5" md="8" sm="9">
               <div className="text-center text-lg-right position-relative">
                 <div className="img-main">
-                  <ImgRight src={imgL} alt="" />
+                  <ImgRight src={imgL} alt="David Leiva" />
                 </div>
               </div>
             </Col>

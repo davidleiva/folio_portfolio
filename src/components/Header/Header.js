@@ -433,6 +433,27 @@ const Header = ({ isDark }) => {
                     }
                   )}
 
+                  
+                  <li className="nav-item">
+                    <a
+                      target="_blank"
+                      className="nav-link"
+                      href="https://www.linkedin.com/in/davidleiva-fe/"
+                    >
+                      Linkedin Profile
+                    </a>
+                  </li>
+
+                  <li className="nav-item">
+                    <a
+                      target="_blank"
+                      className="nav-link"
+                      href="/CV-2021.pdf"
+                    >
+                      Curriculum Vitae
+                    </a>
+                  </li>
+
                   {/* Open about modal */}
                   <li className="nav-item">
                     <a
