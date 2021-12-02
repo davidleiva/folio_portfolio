@@ -124,7 +124,8 @@ const IndexPage = () => {
                 <li className="m-3">Design systems</li>
                 <li className="m-3">Research</li>
                 <li className="m-3">User tests</li>
-                <li className="m-3">UI Design</li>
+                <li className="m-3">A / B Testing</li>
+                <li className="m-3">Style guides</li>
                 <li className="m-3">SCRUM</li>
                 <li className="m-3">Service design</li>
                 <li className="m-3">Design Sprints</li>
@@ -133,7 +134,6 @@ const IndexPage = () => {
                 <li className="m-3">CSS 3</li>
                 <li className="m-3">SASS / LESS</li>
                 <li className="m-3">HTML5</li>
-                <li className="m-3">Style guides</li>
               </ul>
             </Row>
           </Container>
