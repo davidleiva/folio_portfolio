@@ -24,7 +24,7 @@ const WorkSingle = () => {
               <Col lg="8">
                 <Box>
                   <Text variant="tag">
-                    PRODUCT DESIGN · UX/UI · FRONT-END · BRANDING
+                    PRODUCT DESIGN · UX/UI · BRANDING · FRONT-END 
                   </Text>
                   <Title
                     className="my-4"

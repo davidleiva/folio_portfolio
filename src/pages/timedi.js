@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Section, Button, Title, Text, Box, List } from "../components/Core";
 import PageWrapper from "../components/PageWrapper";
 import CTA from "../sections/common/CTA";
-import imgWorkCover from "../assets/image/png/timedi.png";
+import imgWorkCover from "../assets/image/png/timedi-1.jpeg";
 import imgS1 from "../assets/image/png/timedi-1.jpeg";
 import imgS2 from "../assets/image/png/timedi-2.png";
 // import imgS3 from "../assets/image/jpg/details/details-10.jpg";

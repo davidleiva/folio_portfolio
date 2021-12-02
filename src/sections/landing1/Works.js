@@ -95,11 +95,11 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "frontend" ? "active" : null
+                    activeLink === "fe" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("frontend");
+                    filterBy("fe");
                   }}
                 >
                   Front-End

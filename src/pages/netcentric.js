@@ -23,7 +23,7 @@ const WorkSingle = () => {
             <Row className="justify-content-center text-center mb-5">
               <Col lg="8">
                 <Box>
-                  <Text variant="tag">PRODUCT DESIGN · UX/UI · FRONT-END</Text>
+                  <Text variant="tag">UX/UI · FRONT-END</Text>
                   <Title
                     className="my-4"
                     style={{ fontSize: '2.5rem', lineHeight: '3rem', }}

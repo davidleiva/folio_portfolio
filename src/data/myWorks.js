@@ -11,7 +11,7 @@ export const myWorks = [
     brand: 'ELEGIR',
     slug: 'elegir',
     title: 'Social platform for local socio-political change.',
-    categories: ['product','ux','ui','branding','frontend'],
+    categories: ['product','ux','ui','branding','fe'],
     thumbnail: imgT1,
     link : "/elegir"
   },
@@ -19,7 +19,7 @@ export const myWorks = [
     brand: 'Getlife',
     slug: 'getlife',
     title: 'An online service to get the best Life Insurance.',
-    categories: ['product','ux','ui','frontend'],
+    categories: ['product','ux','ui','fe'],
     thumbnail: imgT7,
     link : "/getlife"
   },
@@ -27,7 +27,7 @@ export const myWorks = [
     brand: 'Timedi',
     slug: 'timedi',
     title: 'Product design & software development for pharmaceutical solutions.',
-    categories: ['product','ux','ui','frontend'],
+    categories: ['product','ux','ui','fe'],
     thumbnail: imgT2,
     link : "/timedi"
 },
@@ -35,7 +35,7 @@ export const myWorks = [
     brand: 'Landbot',
     slug: 'landbot',
     title: 'Conversational chatbot codeless generator.',
-    categories: ['product','ux','ui','frontend'],
+    categories: ['product','ux','ui','fe'],
     thumbnail: imgT3,
     link : "/landbot"
 },
@@ -43,7 +43,7 @@ export const myWorks = [
     brand: 'Netcentric',
     slug: 'netcentric',
     title: 'Internal job on the company sites & apps.',
-    categories: ['ui','ux','frontend'],
+    categories: ['ui','ux','fe'],
     thumbnail: imgT4,
     link : "/netcentric"
 },
@@ -51,7 +51,7 @@ export const myWorks = [
     brand: 'BBVA',
     slug: 'bbva',
     title: 'Design, development and implementation of BBVA corporate web pages..',
-    categories: ['frontend', 'ux',],
+    categories: ['fe', 'ux',],
     thumbnail: imgT5,
     link : "/bbva"
 },
@@ -59,7 +59,7 @@ export const myWorks = [
   brand: 'Cliventa',
   slug: 'travel-app',
   title: 'Adaptable but Identifiable Product for Kandinsky.',
-  categories: ['product','ux','ui','branding'],
+  categories: ['product','ux','ui','branding', 'fe'],
   thumbnail: imgT6,
   link : "/cliventa"
 },

@@ -12,7 +12,7 @@ const ContactCard = styled.div`
   background-color: ${({ theme }) => rgba(theme.colors.primary, 0.1)};
   margin-top: 3rem;
   @media ${device.lg} {
-    margin-top: 250px;
+    margin-top: 120px;
   }
 `;
 
