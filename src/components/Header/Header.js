@@ -455,7 +455,7 @@ const Header = ({ isDark }) => {
                     <a
                       target="_blank"
                       className="nav-link"
-                      href="https://drive.google.com/file/d/18HpEtg6E5UnWQ93rLvleA9gC_AIuOo1M/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1TVcDo5O5d7_QjNhyALz2-MvDLzUDX7sJ/view?usp=sharing"
                     >
                       Curriculum Vitae
                     </a>
