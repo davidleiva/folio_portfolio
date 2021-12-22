@@ -1,25 +1,25 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
-import { Box, Text } from "../../components/Core";
+import { Box, Text } from '../../components/Core'
 
 const AvailableCircle = styled(Box)`
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
-`;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+`
 
-const Hero = ({ className = "justify-content-center", ...rest }) => {
-  return (
-    <>
-      <Box className={`d-flex align-items-center ${className}`} {...rest}>
-        <AvailableCircle className="bg-secondary" mr="13px" />
-        <Text variant="tag" className="text-uppercase" color="heading">
-        I want to participate in ambitious and disruptive projects
-        </Text>
-      </Box>
-    </>
-  );
-};
+const Hero = ({ className = 'justify-content-center', ...rest }) => {
+    return (
+        <>
+            <Box className={`d-flex align-items-center ${className}`} {...rest}>
+                <AvailableCircle className="bg-secondary" mr="13px" />
+                <Text variant="tag" className="text-uppercase" color="heading">
+                    I want to participate in ambitious and disruptive projects
+                </Text>
+            </Box>
+        </>
+    )
+}
 
-export default Hero;
+export default Hero

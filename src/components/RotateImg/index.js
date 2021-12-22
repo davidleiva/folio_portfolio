@@ -1,1 +1,1 @@
-export { default } from "./RotateImg";
+export { default } from './RotateImg'

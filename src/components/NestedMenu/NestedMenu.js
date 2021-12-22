@@ -189,6 +189,70 @@ const NestedMenu = ({ menuItems = defaultMenuItems }) => {
           />
         ))}
 
+        <ListGroup.Item
+          css={`
+            padding-left: 0px !important;
+            padding-right: 0 !important;
+          `}
+        >
+          {
+            <a
+              href="/#works"
+              onClick={(e) => {
+                if (gContext.visibleOffCanvas) {
+                  gContext.toggleOffCanvas();
+                }
+              }}
+            >
+              Works
+            </a>
+          }
+        </ListGroup.Item>
+
+        <ListGroup.Item
+          css={`
+            padding-left: 0px !important;
+            padding-right: 0 !important;
+          `}
+        >
+          {
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/davidleiva-fe/"
+              onClick={(e) => {
+                e.preventDefault();
+                if (gContext.visibleOffCanvas) {
+                  gContext.toggleOffCanvas();
+                }
+              }}
+            >
+              Linkedin Profile
+            </a>
+          }
+        </ListGroup.Item>
+
+        <ListGroup.Item
+          css={`
+            padding-left: 0px !important;
+            padding-right: 0 !important;
+          `}
+        >
+          {
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1TVcDo5O5d7_QjNhyALz2-MvDLzUDX7sJ/view?usp=sharing"
+              onClick={(e) => {
+                e.preventDefault();
+                if (gContext.visibleOffCanvas) {
+                  gContext.toggleOffCanvas();
+                }
+              }}
+            >
+              Curriculum Vitae
+            </a>
+          }
+        </ListGroup.Item>
+
         {/* Open about modal */}
         <ListGroup.Item
           css={`
@@ -207,7 +271,7 @@ const NestedMenu = ({ menuItems = defaultMenuItems }) => {
                 }
               }}
             >
-              about me.
+              About me
             </a>
           }
         </ListGroup.Item>
@@ -230,7 +294,7 @@ const NestedMenu = ({ menuItems = defaultMenuItems }) => {
                 }
               }}
             >
-              contact.
+              Contact
             </a>
           }
         </ListGroup.Item>

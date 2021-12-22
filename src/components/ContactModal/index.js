@@ -1,1 +1,1 @@
-export { default } from "./ContactModal";
+export { default } from './ContactModal'

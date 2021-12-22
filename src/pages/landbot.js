@@ -1,122 +1,188 @@
-import React from "react";
-import { Link } from "gatsby";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react'
+import { Link } from 'gatsby'
+import { Container, Row, Col } from 'react-bootstrap'
 
-import { Section, Button, Title, Text, Box, List } from "../components/Core";
-import PageWrapper from "../components/PageWrapper";
-import CTA from "../sections/common/CTA";
-import imgWorkCover from "../assets/image/png/landbot.png";
-import imgS1 from "../assets/image/png/landbot-1.png";
-import imgS2 from "../assets/image/png/landbot-2.jpeg";
-import imgS3 from "../assets/image/png/landbot-3.png";
-import imgS4 from "../assets/image/png/landbot-4.png";
+import { Section, Button, Title, Text, Box, List } from '../components/Core'
+import PageWrapper from '../components/PageWrapper'
+import CTA from '../sections/common/CTA'
+import imgWorkCover from '../assets/image/png/landbot.png'
+import imgS1 from '../assets/image/png/landbot-1.png'
+import imgS2 from '../assets/image/png/landbot-2.jpeg'
+import imgS3 from '../assets/image/png/landbot-3.png'
+import imgS4 from '../assets/image/png/landbot-4.png'
 // import imgS5 from "../assets/image/jpg/details/details-14.jpg";
 // import imgS6 from "../assets/image/jpg/details/details-13.jpg";
 // import { device } from "../utils";
 
 const WorkSingle = () => {
-  return (
-    <>
-      <PageWrapper>
-        <Section hero>
-          <Container>
-            <Row className="justify-content-center text-center mb-5">
-              <Col lg="8">
-                <Box>
-                  <Text variant="tag">PRODUCT DESIGN · UX/UI · FRONT-END</Text>
-                  <Title
-                    className="my-4"
-                    style={{ fontSize: '2.5rem', lineHeight: '3rem', }}
-                  >The best Chat Bot builder on the market.
-                  </Title>
-                  <Text
-                    variant="p"
-                    css={`
-                      max-width: 750px;
-                    `}
-                  >Landbot is one of the best well-known startups of Barcelona at the moment. Is compiting against companies which worth is even 20 times bigger and landbot stills have better reputation.</Text>
-                </Box>
-              </Col>
-            </Row>
+    return (
+        <>
+            <PageWrapper>
+                <Section hero>
+                    <Container>
+                        <Row className="justify-content-center text-center mb-5">
+                            <Col lg="8">
+                                <Box>
+                                    <Text variant="tag">
+                                        PRODUCT DESIGN · UX/UI · FRONT-END
+                                    </Text>
+                                    <Title
+                                        className="my-4"
+                                        style={{
+                                            fontSize: '2.5rem',
+                                            lineHeight: '3rem',
+                                        }}
+                                    >
+                                        The best Chat Bot builder on the market.
+                                    </Title>
+                                    <Text
+                                        variant="p"
+                                        css={`
+                                            max-width: 750px;
+                                        `}
+                                    >
+                                        Landbot is one of the best well-known
+                                        startups of Barcelona at the moment. Is
+                                        compiting against companies which worth
+                                        is even 20 times bigger and landbot
+                                        stills have better reputation.
+                                    </Text>
+                                </Box>
+                            </Col>
+                        </Row>
 
-            <Box className="mb-4"> {/* pt={["4rem", null, null, "6.25rem"]} */}
-              <img src={imgWorkCover} alt="elegir is a personal project" className="img-fluid w-100" />
-            </Box>
+                        <Box className="mb-4">
+                            {' '}
+                            {/* pt={["4rem", null, null, "6.25rem"]} */}
+                            <img
+                                src={imgWorkCover}
+                                alt="elegir is a personal project"
+                                className="img-fluid w-100"
+                            />
+                        </Box>
 
-            <Row>
-                <Col>
-                    <Box>
-                        <Title variant="cardBig" className="mb-3">Project Summary</Title>
-                        <Text variant="p" className="mb-4">
-                            I entered Landbot in a sweet moment. The plaform was growing fast and needed some key profiles for completing the tasks tat landbot's investors set as urgent.
-                        </Text>
-                        <Text variant="p" className="mb-4">
-                            One key role was an hybrid between a front-end developer and soomeone with good eye for design, that was able to solve ux problems quickly. My profile fit this this position and I was delighted to be part of this team.
-                        </Text>
-                        <Text variant="p" className="mb-4">
-                            Figma, prototypes, Storybook and React where my daily work basis, and while the bot world was changing fast, Landbot performed excellently, being one of the key players on the market.
-                        </Text>
-                    </Box>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <Box>
-                        <Title variant="cardBig" className="mt-4 mb-5">What I did & tools I used</Title>
-                    </Box>
-                </Col>
-            </Row>
-            <Row>
-              <Col lg="4">
-                  <h6 className="mb-2">UX/UI/Other</h6>
-                  <List>
-                    <li className="mb-2">App design & prototype in Figma</li>
-                    <li className="mb-2">Features specification</li>
-                    <li className="mb-2">Design system & Storybook implementation</li>
-                  </List>
-                </Col>
-                <Col lg="4">
-                    <h6 className="mb-2">Research:</h6>
-                    <List>
-                        <li className="mb-2">Quantitative: Surveys made with Landbot (obviously)</li>
-                        <li className="mb-2">Qualitative: Clients Interviews</li>
-                    </List>
-                </Col>
-                <Col lg="4">
-                    <h6 className="mb-2">Tools used</h6>
-                    <List>
-                        <li className="mb-2">Figma</li>
-                        <li className="mb-2">Miro</li>
-                        <li className="mb-2">Notion</li>
-                        <li className="mb-2">React</li>
-                    </List>
-                </Col>
-            </Row>
-          </Container>
-        </Section>
+                        <Row>
+                            <Col>
+                                <Box>
+                                    <Title variant="cardBig" className="mb-3">
+                                        Project Summary
+                                    </Title>
+                                    <Text variant="p" className="mb-4">
+                                        I entered Landbot in a sweet moment. The
+                                        plaform was growing fast and needed some
+                                        key profiles for completing the tasks
+                                        tat landbot's investors set as urgent.
+                                    </Text>
+                                    <Text variant="p" className="mb-4">
+                                        One key role was an hybrid between a
+                                        front-end developer and soomeone with
+                                        good eye for design, that was able to
+                                        solve ux problems quickly. My profile
+                                        fit this this position and I was
+                                        delighted to be part of this team.
+                                    </Text>
+                                    <Text variant="p" className="mb-4">
+                                        Figma, prototypes, Storybook and React
+                                        where my daily work basis, and while the
+                                        bot world was changing fast, Landbot
+                                        performed excellently, being one of the
+                                        key players on the market.
+                                    </Text>
+                                </Box>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <Box>
+                                    <Title
+                                        variant="cardBig"
+                                        className="mt-4 mb-5"
+                                    >
+                                        What I did & tools I used
+                                    </Title>
+                                </Box>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col lg="4">
+                                <h6 className="mb-2">UX/UI/Other</h6>
+                                <List>
+                                    <li className="mb-2">
+                                        App design & prototype in Figma
+                                    </li>
+                                    <li className="mb-2">
+                                        Features specification
+                                    </li>
+                                    <li className="mb-2">
+                                        Design system & Storybook implementation
+                                    </li>
+                                </List>
+                            </Col>
+                            <Col lg="4">
+                                <h6 className="mb-2">Research:</h6>
+                                <List>
+                                    <li className="mb-2">
+                                        Quantitative: Surveys made with Landbot
+                                        (obviously)
+                                    </li>
+                                    <li className="mb-2">
+                                        Qualitative: Clients Interviews
+                                    </li>
+                                </List>
+                            </Col>
+                            <Col lg="4">
+                                <h6 className="mb-2">Tools used</h6>
+                                <List>
+                                    <li className="mb-2">Figma</li>
+                                    <li className="mb-2">Miro</li>
+                                    <li className="mb-2">Notion</li>
+                                    <li className="mb-2">React</li>
+                                </List>
+                            </Col>
+                        </Row>
+                    </Container>
+                </Section>
 
-        <Container>
-          <Title variant="cardBig" className="mt-4 mb-5">Screenshots</Title>
-          <Row>
-            <Col lg="6">
-              <img src={imgS3} alt="landbot" className="mb-3 img-fluid w-100 shadow" />
-            </Col>
-            <Col lg="6">
-              <img src={imgS4} alt="landbot" className="mb-3 img-fluid w-100 shadow" />
-            </Col>
-            <Col lg="6">
-              <img src={imgS1} alt="landbot" className="mb-3 img-fluid w-100 shadow" />
-            </Col>
-            <Col lg="6">
-              <img src={imgS2} alt="landbot" className="mb-3 img-fluid w-100 shadow" />
-            </Col>
-          </Row>
-        </Container>
+                <Container>
+                    <Title variant="cardBig" className="mt-4 mb-5">
+                        Screenshots
+                    </Title>
+                    <Row>
+                        <Col lg="6">
+                            <img
+                                src={imgS3}
+                                alt="landbot"
+                                className="mb-3 img-fluid w-100 shadow"
+                            />
+                        </Col>
+                        <Col lg="6">
+                            <img
+                                src={imgS4}
+                                alt="landbot"
+                                className="mb-3 img-fluid w-100 shadow"
+                            />
+                        </Col>
+                        <Col lg="6">
+                            <img
+                                src={imgS1}
+                                alt="landbot"
+                                className="mb-3 img-fluid w-100 shadow"
+                            />
+                        </Col>
+                        <Col lg="6">
+                            <img
+                                src={imgS2}
+                                alt="landbot"
+                                className="mb-3 img-fluid w-100 shadow"
+                            />
+                        </Col>
+                    </Row>
+                </Container>
 
-        <div className="mt-lg-3">
-          <Container>
-            <Row>
-              {/* <Col lg="4" className="mb-4 mb-lg-0">
+                <div className="mt-lg-3">
+                    <Container>
+                        <Row>
+                            {/* <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Client</Text>
                 <Title variant="cardBig" className="mt-3">
                   DataTryper
@@ -128,24 +194,32 @@ const WorkSingle = () => {
                   Oct 15, 2019
                 </Title>
               </Col> */}
-              <Col lg="12" className="d-flex flex-column align-items-center">
-                <Text variant="h3" className="my-3">
-                  Want to see the the project?
-                </Text>
-                <div>
-                  <a href="https://landbot.io/" target="_blank">
-                  <Button
-                    arrowRight
-                    // onClick={() => window.open("", "_blank")}
-                  >Go to website</Button>
-                  </a>
+                            <Col
+                                lg="12"
+                                className="d-flex flex-column align-items-center"
+                            >
+                                <Text variant="h3" className="my-3">
+                                    Want to see the the project?
+                                </Text>
+                                <div>
+                                    <a
+                                        href="https://landbot.io/"
+                                        target="_blank"
+                                    >
+                                        <Button
+                                            arrowRight
+                                            // onClick={() => window.open("", "_blank")}
+                                        >
+                                            Go to website
+                                        </Button>
+                                    </a>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
 
-        {/* <div className="mt-lg-3">
+                {/* <div className="mt-lg-3">
           <Container>
             <Row>
               <Col lg="4" className="mb-4 mb-lg-0">
@@ -167,7 +241,7 @@ const WorkSingle = () => {
           </Container>
         </div> */}
 
-        {/* <Section className="mt-lg-5 pb-0">
+                {/* <Section className="mt-lg-5 pb-0">
           <Container>
             <Row>
               <Col xs="12" className="mb-5">
@@ -186,7 +260,7 @@ const WorkSingle = () => {
           </Container>
         </Section> */}
 
-        {/* <Section bg="dark" className="pt-0">
+                {/* <Section bg="dark" className="pt-0">
           <Container>
             <Row>
               <Col xs="12" className="mb-5">
@@ -221,11 +295,11 @@ const WorkSingle = () => {
             </div>
           </Container>
         </Section> */}
-        <Box py={4}>
-          <CTA />
-        </Box>
-      </PageWrapper>
-    </>
-  );
-};
-export default WorkSingle;
+                <Box py={4}>
+                    <CTA />
+                </Box>
+            </PageWrapper>
+        </>
+    )
+}
+export default WorkSingle

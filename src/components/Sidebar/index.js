@@ -1,9 +1,9 @@
 export {
-  CardSidebar,
-  Block,
-  TitleSidebar,
-  TitlePost,
-  Date,
-  CatList,
-  CatListItem,
-} from "./Sidebar";
+    CardSidebar,
+    Block,
+    TitleSidebar,
+    TitlePost,
+    Date,
+    CatList,
+    CatListItem,
+} from './Sidebar'

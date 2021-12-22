@@ -1,1 +1,1 @@
-export { default } from "./WorkCard";
+export { default } from './WorkCard'
